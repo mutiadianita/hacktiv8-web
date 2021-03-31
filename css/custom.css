@@ -1,0 +1,58 @@
+
+.btn-primary {
+  color: #fff;
+  background-color: #e14817;
+  border-color: #e14817;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #c94014;
+  border-color: #c94014;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #c94014;
+  border-color: #c94014;
+  box-shadow: 0 0 0 0.2rem rgba(201, 64, 20, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #c94014;
+  border-color: #c94014;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #c94014;
+  border-color: #c94014;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(201, 64, 20, 0.5);
+}
+
+.jumbotron {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.card {
+  position: relative;
+  top:0;
+  left: 0;
+  border: 0;
+  box-shadow: 2px 2px 5px 0px rgba(143,143,143,0.5);
+  transition:
+    top 0.5s ease-in-out,
+    left 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out
+}
+.card:hover {
+  top:-8px;
+  left: -8px;
+  box-shadow: 2px 2px 5px 0px rgba(143,143,143,1);
+}

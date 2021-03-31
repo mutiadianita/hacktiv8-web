@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+section {
+  background-color: white;
+}
+table,th,td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 16px;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1296px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+}
+.container-usaha {
+  padding: 62px 24px;
+}
+.title-usaha {
+  font-family: 'Dela Gothic One', cursive;
+  max-width: 612px;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-usaha h3{
+  font-size: 40px;
+}
+.content-usaha {
+  margin-top: 48px;
+  padding: 0 24px;
+  text-align: center;
+}
+.content-usaha .text-number-usaha{
+  color: #e14817;
+  font-size: 72px;
+  font-weight: bold;
+  font-style: italic;
+}
+.container-saran {
+  padding: 62px;
+}
+.text-content-jumbotron {
+  max-width: 506px;
+}
+
+.container-todos {
+  max-width: 612px;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
